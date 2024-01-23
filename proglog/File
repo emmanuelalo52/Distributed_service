@@ -1,0 +1,7 @@
+compile:
+    protoc C:\Users\hp\OneDrive\Documents\Distributed_service\proglog\api\v1\log.proto `
+        --go_out=. `
+        --go_opt=paths=source_relative `
+        --proto_path=C:\Users\hp\OneDrive\Documents\Distributed_service\proglog\api\v1`
+test:
+    
